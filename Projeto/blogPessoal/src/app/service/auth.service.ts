@@ -23,7 +23,7 @@ cadastrar(usuario: Usuario): Observable<Usuario>{
 }
 
 logado(){
-    let ok = false
+    let ok: boolean = false
 
     if (environment.token != ''){
       ok = true
